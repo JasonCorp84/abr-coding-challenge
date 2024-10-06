@@ -1,0 +1,52 @@
+.fish-list {
+  display: flex;
+  flex-direction: column;
+  margin: 20px; /* Add some margin around the list */
+}
+
+.fish-item {
+  width: 30%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 15px 0; /* Increased margin for better separation */
+  display: flex; 
+  overflow: hidden; /* Prevent content overflow */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.fish-item img {
+  object-fit: contain;
+  max-width: 100%; 
+  /* height: auto; aintain aspect ratio */
+  object-fit: cover;
+}
+
+.fish-item-content {
+  padding: 15px; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between; 
+  width: 100%;
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.fish-item h3 {
+  margin: 0; 
+  font-size: 1.2em; /* Slightly larger font for titles */
+  color: #333; /* Darker color for better readability */
+}
+
+.fish-item p {
+  margin: 5px 0;
+  color: #555; /* Lighter color for description text */
+  line-height: 1.5; /* Increase line height for readability */
+}
+
+.fish-image {
+  object-fit: contain !important;
+  aspect-ratio: 16/9;
+  width: 50%; 
+  height: auto; 
+  max-height: 200px; 
+  border-radius: 5px 0 0 5px; /* Rounded corners on the left */
+}
