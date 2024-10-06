@@ -7,6 +7,10 @@ Contact me: [csababalogh84@gmail.com](mailto:csababalogh84@gmail.com)
 ### Requirements
 ``node version 22``
 
+Please make sure your server runs on the same port, as in the description, to have data
+from
+https://github.com/theabr-org/coding-challenge-server/tree/main
+
 ### Install Dependencies
 ```
 npm i
