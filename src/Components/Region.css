@@ -2,5 +2,4 @@
   display: flex;
   flex-wrap: wrap; /* Allow items to wrap onto the next line */
   justify-content: space-between; /* Optional: space out items evenly */
-  padding: 3%;
 }
